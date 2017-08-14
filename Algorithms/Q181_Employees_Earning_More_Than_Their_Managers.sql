@@ -1,0 +1,1 @@
+select e.Name Employee from Employee e left join (select * from Employee) m on e.ManagerId=m.Id where e.Salary>m.Salary;

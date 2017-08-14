@@ -1,0 +1,1 @@
+sed -En '10p' file.txt
